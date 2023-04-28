@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0;
+    /* background-color: #21638a; */
+    background: rgb(23,36,85);
+    background: linear-gradient(30deg, rgba(23,36,85,1) 0%, rgba(33,107,146,1) 100%);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 0 auto;
+    max-width: 1200px; */
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: space-around;
+    max-width: fit-content;
+}
+
+.navbar {
+    height: 10vh;
+    width: 84%;
+    /* position: sticky;
+    top: 0;
+    z-index: 999; */
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 0 0 0 auto;
+    padding: 0 2%;
+    /* backdrop-filter: blur(10px) invert(10%); */
+    text-align: left;
+}
+
+.website-heading {
+    /* padding: 1vmin 2vmin;    */
+    color: #00C89A;
+    font-size: 4.5vmin;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.navbar-options > div {
+    color: #354B45;
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+.navbar-options > div:hover {
+    background-color: whitesmoke;
+}
+
+.navbar-options > div a {
+    color: #354B45;
+    text-decoration: none;
+}
+
+/* #sex-radio {
+    border: 2px solid #dee2e6;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 50px;
+    max-width: 600px;
+}
+#sex-radio input {
+    margin-right: 10px;
+    cursor: pointer;
+}
+#sex-radio label {
+    margin-right: 30px;
+    cursor: pointer;
+} */
+
+.warning {
+    height: calc(15vh - 10px);
+    width: 84%;
+    border: 2px solid #dee2e6;
+    background-color: #fafafa;
+    text-align: center;
+    margin-left: auto;
+    /* margin: 5px auto; */
+    padding: 10px 50px;
+    /* max-width: 780px; */
+}
